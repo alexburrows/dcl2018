@@ -67,7 +67,8 @@
         "drupal/media_entity_image": "^1.2",
         "drupal/media_entity_instagram": "^1.4",
         "drupal/media_entity_slideshow": "^1.2",
-        "drupal/bootstrap": "^3.5"
+        "drupal/bootstrap": "^3.5",
+        "drupal/metatag": "^1.2"
     },
     "require-dev": {
         "behat/mink": "~1.7",
