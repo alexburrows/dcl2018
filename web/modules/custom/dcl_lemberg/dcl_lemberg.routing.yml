@@ -1,0 +1,39 @@
+dcl_lemberg.get_speakers:
+  path: '/getSpeakers'
+  defaults:
+    _controller: '\Drupal\dcl_lemberg\Controller\LembergSpeakers::getSpeakers'
+    _title: 'getSpeakers'
+  requirements:
+    _permission: 'access content'
+
+dcl_lemberg.get_types:
+  path: '/getTypes'
+  defaults:
+    _controller: '\Drupal\dcl_lemberg\Controller\LembergTypes::getTypes'
+    _title: 'getTypes'
+  requirements:
+    _permission: 'access content'
+
+dcl_lemberg.get_tracks:
+  path: '/getTracks'
+  defaults:
+    _controller: '\Drupal\dcl_lemberg\Controller\LembergTracks::getTracks'
+    _title: 'getTracks'
+  requirements:
+    _permission: 'access content'
+
+dcl_lemberg.get_levels:
+  path: '/getLevels'
+  defaults:
+    _controller: '\Drupal\dcl_lemberg\Controller\LembergLevels::getLevels'
+    _title: 'getLevels'
+  requirements:
+    _permission: 'access content'
+
+dcl_lemberg.get_sessions:
+  path: '/getSessions'
+  defaults:
+    _controller: '\Drupal\dcl_lemberg\Controller\LembergSessions::getSessions'
+    _title: 'getSessions'
+  requirements:
+    _permission: 'access content'

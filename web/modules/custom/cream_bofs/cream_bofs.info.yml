@@ -1,0 +1,15 @@
+name: 'Cream Bofs'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - field
+  - menu_ui
+  - node
+  - path
+  - rest
+  - serialization
+  - system
+  - text
+  - user
+  - views

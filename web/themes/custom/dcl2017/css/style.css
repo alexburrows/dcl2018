@@ -1,0 +1,549 @@
+* {
+  font-family: "Open Sans"; }
+
+h1 {
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px; }
+
+h3 {
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.4px; }
+
+p {
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px; }
+
+blockquote {
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px; }
+
+pre {
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px; }
+
+/**
+ * @file
+ * Various block styling.
+ */
+.call-to-action-buttons {
+  padding: 30px 0; }
+  @media only screen and (max-width: 770px) {
+    .call-to-action-buttons {
+      margin-bottom: 10px; } }
+  .call-to-action-buttons a {
+    width: 100%;
+    text-align: center;
+    line-height: 200%; }
+  .call-to-action-buttons.asset__1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 5px #232323 solid; }
+    .call-to-action-buttons.asset__1 a {
+      color: #fff;
+      background-color: #E34C4F; }
+    .call-to-action-buttons.asset__1 a.btn, .call-to-action-buttons.asset__1 input[type='submit'].btn {
+      border: 0;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px; }
+      .call-to-action-buttons.asset__1 a.btn.btn-primary, .call-to-action-buttons.asset__1 input[type='submit'].btn.btn-primary {
+        background-color: rgba(227, 76, 79, 0.8);
+        color: #fff;
+        border-bottom: 5px #E34C4F solid;
+        font-size: 28px;
+        font-weight: bold; }
+
+.tickets.asset__2 {
+  background-color: #E34C4F; }
+  .tickets.asset__2 .row {
+    padding: 20px; }
+    .tickets.asset__2 .row .col-md-6 div {
+      background-color: rgba(37, 57, 118, 0.8);
+      border-bottom: 5px solid #253976;
+      padding: 20px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      color: #fff; }
+      .tickets.asset__2 .row .col-md-6 div h2, .tickets.asset__2 .row .col-md-6 div p {
+        font-weight: 800; }
+      .tickets.asset__2 .row .col-md-6 div p {
+        font-size: 25px; }
+      .tickets.asset__2 .row .col-md-6 div h2, .tickets.asset__2 .row .col-md-6 div p {
+        color: #fff;
+        text-align: center; }
+      .tickets.asset__2 .row .col-md-6 div a.btn {
+        border: 0;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px; }
+        .tickets.asset__2 .row .col-md-6 div a.btn.btn-secondary {
+          background-color: rgba(227, 76, 79, 0.8);
+          color: #fff;
+          border-bottom: 5px #E34C4F solid;
+          font-size: 28px;
+          font-weight: bold;
+          width: 100%; }
+
+.drupal-apprentice {
+  padding: 20px 0;
+  background-color: #bce8f1; }
+  .drupal-apprentice .container {
+    background: url("../images/drupal_apprentices.png") no-repeat right bottom transparent; }
+
+.sponsors {
+  padding: 20px 0;
+  background-color: #fff; }
+  .sponsors h2 {
+    color: #999;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center; }
+  .sponsors .views-element-container .form-group .view-sponsors .view-content h3 {
+    color: #253976;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: rgba(153, 153, 153, 0.8) 2px solid;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding-bottom: 20px; }
+  .sponsors .views-element-container .form-group .view-sponsors .view-content .col-md-6 img,
+  .sponsors .views-element-container .form-group .view-sponsors .view-content .sponsor img {
+    display: block;
+    filter: none; }
+    .sponsors .views-element-container .form-group .view-sponsors .view-content .col-md-6 img.img-responsive,
+    .sponsors .views-element-container .form-group .view-sponsors .view-content .sponsor img.img-responsive {
+      margin: auto !important; }
+  .sponsors .sponsor {
+    padding: 20px;
+    border-radius: 20px; }
+    .sponsors .sponsor .image .mask {
+      overflow: hidden;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px; }
+      .sponsors .sponsor .image .mask img {
+        height: 150px;
+        margin-left: auto; }
+    .sponsors .sponsor .bio h3 {
+      color: #fff;
+      font-size: 28px; }
+    .sponsors .sponsor .bio p {
+      opacity: 0.8;
+      font-style: italic; }
+    .sponsors .sponsor .bio h3, .sponsors .sponsor .bio p, .sponsors .sponsor .bio a {
+      color: #fff; }
+
+.speakers {
+  padding: 20px 0;
+  border-top: rgba(227, 76, 79, 0.8) 15px solid;
+  background-color: #E34C4F; }
+  .speakers h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center; }
+  .speakers .speaker {
+    padding: 20px;
+    border-radius: 20px; }
+    .speakers .speaker .mask {
+      overflow: hidden;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      position: relative;
+      width: 150px;
+      height: 150px; }
+      .speakers .speaker .mask img {
+        height: 150px;
+        margin-left: -30px;
+        position: absolute;
+        top: 0;
+        right: 0; }
+    .speakers .speaker h3 {
+      color: #fff;
+      font-size: 28px; }
+    .speakers .speaker p {
+      opacity: 0.8;
+      font-style: italic; }
+    .speakers .speaker h3, .speakers .speaker p, .speakers .speaker a {
+      color: #fff; }
+
+.cxo-speakers {
+  padding: 20px 0 40px 0;
+  border-top: rgba(26, 77, 102, 0.8) 15px solid;
+  background-color: #000066; }
+  .cxo-speakers h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center; }
+  .cxo-speakers a.btn {
+    border: 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px; }
+    .cxo-speakers a.btn.btn-secondary {
+      background-color: rgba(26, 77, 102, 0.8);
+      color: #fff;
+      border-bottom: 5px #213666 solid;
+      font-size: 28px;
+      font-weight: bold;
+      width: 100%; }
+  .cxo-speakers .row {
+    padding: 20px 0; }
+  .cxo-speakers .speaker-item {
+    margin-bottom: 10px;
+    padding: 20px 50px 40px 50px;
+    border-radius: 20px; }
+    .cxo-speakers .speaker-item .speaker {
+      padding-top: 20px; }
+      .cxo-speakers .speaker-item .speaker .mask {
+        padding-top: 20px;
+        overflow: hidden;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        position: relative;
+        width: 150px;
+        height: 150px;
+        margin: auto; }
+        .cxo-speakers .speaker-item .speaker .mask img {
+          height: 150px;
+          margin-left: -30px;
+          position: absolute;
+          top: 0;
+          right: 0; }
+      .cxo-speakers .speaker-item .speaker h3 {
+        color: #fff;
+        font-size: 28px; }
+      .cxo-speakers .speaker-item .speaker p {
+        opacity: 0.8;
+        font-style: italic;
+        min-height: 50px; }
+      .cxo-speakers .speaker-item .speaker h3, .cxo-speakers .speaker-item .speaker p, .cxo-speakers .speaker-item .speaker a {
+        color: #fff;
+        text-align: center; }
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0; }
+
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%; }
+
+.embed-responsive-4by3 {
+  padding-bottom: 75%; }
+
+.drupal-association {
+  padding: 20px 0;
+  background-color: #F6F6F2; }
+  .drupal-association .container {
+    background: url("https://assoc.drupal.org/files/drupal-association-logo-rgb.png") bottom right transparent no-repeat;
+    background-size: 20%; }
+    .drupal-association .container .row h2 {
+      color: #064771; }
+    .drupal-association .container .row p {
+      color: #222222; }
+    .drupal-association .container .row a {
+      color: #fff;
+      border-left: 0;
+      border-top: 0;
+      border-right: 0;
+      border-bottom: 5px solid #367d02;
+      background-color: #96BC44; }
+      .drupal-association .container .row a:hover {
+        background-color: #367d02; }
+
+.cxo-speakers.page {
+  float: left; }
+  .cxo-speakers.page .speaker-item .speaker h3, .cxo-speakers.page .speaker-item .speaker p, .cxo-speakers.page .speaker-item .speaker a {
+    text-align: left; }
+
+nav.navbar-fixed-top {
+  background-color: transparent;
+  border: 0;
+  background-color: #fff;
+  box-shadow: 0px 21px 23px 0px rgba(0, 0, 0, 0.5);
+  height: 53px; }
+  nav.navbar-fixed-top .inner a.navbar-brand {
+    background: url(../images/logo.png) no-repeat;
+    background-size: 70%;
+    float: left;
+    overflow: hidden;
+    text-indent: -999px; }
+    @media only screen and (min-width: 771px) {
+      nav.navbar-fixed-top .inner a.navbar-brand {
+        width: 381px !important;
+        height: 118px !important; } }
+    @media only screen and (max-width: 770px) {
+      nav.navbar-fixed-top .inner a.navbar-brand {
+        margin-left: 20px;
+        margin-top: 9px;
+        width: 160px;
+        height: 38px !important; } }
+  nav.navbar-fixed-top .region-main-nav nav {
+    background-color: #fff; }
+    nav.navbar-fixed-top .region-main-nav nav ul li a {
+      color: #253976;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 12px; }
+      nav.navbar-fixed-top .region-main-nav nav ul li a.is-active {
+        color: #fff !important;
+        background-color: #E34C4F; }
+      nav.navbar-fixed-top .region-main-nav nav ul li a:hover {
+        -o-transition: color .2s ease-out, background 1s ease-in;
+        -ms-transition: color .2s ease-out, background 1s ease-in;
+        -moz-transition: color .2s ease-out, background 1s ease-in;
+        -webkit-transition: color .2s ease-out, background 1s ease-in;
+        /* ...and now override with proper CSS property */
+        transition: color .2s ease-out, background 1s ease-in;
+        background-color: #253976;
+        color: #fff; }
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #E34C4F;
+  color: #fff; }
+
+#block-mainnavigation .active a {
+  text-decoration: none;
+  background-color: #eee; }
+
+@media only screen and (max-width: 770px) {
+  #navbar {
+    background-color: #fff; }
+  ul.menu.nav {
+    background-color: #fff; } }
+
+#hero {
+  background: url("../images/front/hero.png") 0 0 no-repeat transparent;
+  background-size: cover;
+  height: 400px;
+  position: relative; }
+  #hero div {
+    padding-top: 30px; }
+    #hero div #event-date {
+      box-shadow: 0px 21px 23px 0px rgba(0, 0, 0, 0.5);
+      background-color: #fff;
+      padding: 20px;
+      text-align: center; }
+      @media only screen and (max-width: 770px) {
+        #hero div #event-date h1 {
+          font-size: 32px; } }
+      @media only screen and (min-width: 771px) {
+        #hero div #event-date h1 {
+          font-size: 48px; } }
+      #hero div #event-date h1 {
+        color: #253976;
+        font-weight: bold; }
+      #hero div #event-date h2 {
+        color: #E34C4F;
+        font-weight: bold; }
+
+#main-content {
+  padding: 20px 0; }
+  #main-content .container .row {
+    padding: 0 20px; }
+
+footer {
+  background-color: #253976;
+  padding: 20px 0;
+  border-top: 1px solid #fff; }
+  footer .container .row div p {
+    color: #fff; }
+    footer .container .row div p a {
+      color: #00ffff; }
+  footer .container .row div a {
+    color: #00ffff; }
+  footer .container .row p {
+    color: #fff; }
+    footer .container .row p a {
+      color: #00ffff; }
+
+/**
+ * @file
+ * All page listings. (attendees, sessions).
+ */
+.view-sponsors h3 {
+  border-top: 1px solid #ddd;
+  text-align: center;
+  line-height: 40px;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  clear: both;
+  margin-bottom: 10px; }
+
+.view-sponsors img {
+  margin: auto; }
+
+.view-schedule .schedule-item {
+  border: 2px solid #205081;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  color: #E34C4F; }
+  .view-schedule .schedule-item a:first-child {
+    width: 100%;
+    font-size: 18px;
+    color: #E34C4F;
+    float: left;
+    padding-bottom: 5px;
+    margin-bottom: 10px; }
+  .view-schedule .schedule-item .room {
+    border-top: #205081 2px solid;
+    width: 100%;
+    float: left;
+    padding: 5px 0; }
+  .view-schedule .schedule-item .skill, .view-schedule .schedule-item .track {
+    margin-right: 10px; }
+  .view-schedule .schedule-item.skill-7 .skill-track .skill {
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #00a7e1; }
+  .view-schedule .schedule-item.skill-8 .skill-track .skill {
+    padding: 5px;
+    color: #fff;
+    background-color: #81bc00; }
+  .view-schedule .schedule-item.skill-9 .skill-track .skill {
+    padding: 5px;
+    color: #fff;
+    background-color: #ff001f; }
+  .view-schedule .schedule-item.track-1 .skill-track .track {
+    background-color: #935bff;
+    padding: 5px;
+    color: #fff; }
+  .view-schedule .schedule-item.track-3 .skill-track .track {
+    background-color: #00253d;
+    padding: 5px;
+    color: #fff; }
+  .view-schedule .schedule-item.track-4 .skill-track .track {
+    background-color: #b50083;
+    padding: 5px;
+    color: #fff; }
+  .view-schedule .schedule-item.track-5 .skill-track .track {
+    background-color: #0081c9;
+    padding: 5px;
+    color: #fff; }
+  .view-schedule .schedule-item.track-6 .skill-track .track {
+    background-color: #f39200;
+    padding: 5px;
+    color: #fff; }
+  .view-schedule .schedule-item .room, .view-schedule .schedule-item .skill-track {
+    clear: both; }
+  .view-schedule .schedule-item .skill, .view-schedule .schedule-item .track {
+    float: left;
+    text-align: center; }
+
+.view-attendee h3,
+.view-sessions h3 {
+  border-top: 1px solid #ddd;
+  text-align: center;
+  line-height: 40px;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  clear: both;
+  margin-bottom: 10px; }
+
+.view-attendee .views-row,
+.view-sessions .views-row {
+  border: 12px solid #fff;
+  background-color: #E34C4F;
+  margin-bottom: 20px;
+  padding: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  height: 180px; }
+  .view-attendee .views-row p.speaker a,
+  .view-sessions .views-row p.speaker a {
+    font-size: 18px;
+    color: #fff; }
+  .view-attendee .views-row:hover,
+  .view-sessions .views-row:hover {
+    background-color: #205081;
+    -o-transition: color .2s ease-out, background 1s ease-in;
+    -ms-transition: color .2s ease-out, background 1s ease-in;
+    -moz-transition: color .2s ease-out, background 1s ease-in;
+    -webkit-transition: color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition: color .2s ease-out, background 1s ease-in; }
+  .view-attendee .views-row .item-details, .view-attendee .views-row .col-md-12,
+  .view-sessions .views-row .item-details,
+  .view-sessions .views-row .col-md-12 {
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 84%;
+    padding-bottom: 13px; }
+    .view-attendee .views-row .item-details .name, .view-attendee .views-row .item-details .name a, .view-attendee .views-row .col-md-12 .name, .view-attendee .views-row .col-md-12 .name a,
+    .view-sessions .views-row .item-details .name,
+    .view-sessions .views-row .item-details .name a,
+    .view-sessions .views-row .col-md-12 .name,
+    .view-sessions .views-row .col-md-12 .name a {
+      display: inline-block;
+      margin-top: 16px;
+      color: #fff; }
+    .view-attendee .views-row .item-details .pic, .view-attendee .views-row .col-md-12 .pic,
+    .view-sessions .views-row .item-details .pic,
+    .view-sessions .views-row .col-md-12 .pic {
+      right: -22px;
+      display: inline-block;
+      position: absolute;
+      top: -41px; }
+  .view-attendee .views-row img,
+  .view-sessions .views-row img {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    border: 1px solid #fff;
+    margin: auto !important; }
+
+.session-details-full .session-type {
+  padding: 10px;
+  background-color: #E34C4F;
+  color: #fff;
+  margin-bottom: 10px; }
+
+.session-details-full .session-comment {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #E34C4F; }

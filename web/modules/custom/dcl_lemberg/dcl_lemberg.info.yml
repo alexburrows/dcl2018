@@ -1,0 +1,10 @@
+name: 'DCL Lemberg'
+description: 'Creates the feeds for the lemberg app'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - path
+  - taxonomy
+  - text
+  - user

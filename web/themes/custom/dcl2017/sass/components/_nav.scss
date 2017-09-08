@@ -1,0 +1,88 @@
+nav  {
+  &.navbar-fixed-top {
+    background-color: transparent;
+    border:0;
+    .inner {
+      a {
+          &.navbar-brand {
+            @media only screen and (min-width : $min_width) {
+              width: 381px !important;
+              height: 118px !important;
+            }
+            @media only screen and (max-width : $max_width) {
+              margin-left: 20px;
+              margin-top: 9px;
+              width: 160px;
+              height: 38px !important;
+            }
+            background: url(../images/logo.png) no-repeat;
+            background-size: 70%;
+            float: left;
+            overflow: hidden;
+            text-indent: -999px;
+          }
+        }
+      }
+      background-color: #fff;
+      box-shadow: 0px 21px 23px 0px rgba(0,0,0,0.50);
+      height:53px;
+      .region-main-nav {
+        nav {
+          background-color:#fff;
+          ul {
+            li {
+              a {
+                color: $asset_colour3;
+                text-transform: uppercase;
+                font-weight:bold;
+                font-size:12px;
+                &.is-active {
+                  color:#fff!important;
+                  background-color: $asset_colour1;
+                }
+                &:hover {
+                  -o-transition:color .2s ease-out, background 1s ease-in;
+                  -ms-transition:color .2s ease-out, background 1s ease-in;
+                  -moz-transition:color .2s ease-out, background 1s ease-in;
+                  -webkit-transition:color .2s ease-out, background 1s ease-in;
+                  /* ...and now override with proper CSS property */
+                  transition:color .2s ease-out, background 1s ease-in;
+                  background-color: $asset_colour3;
+                  color:#fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color:$asset_colour1;
+  color:#fff;
+}
+
+#block-mainnavigation {
+  .active a {
+    text-decoration: none;
+    background-color: #eee;
+  }
+}
+
+@media only screen and (max-width : $max_width) {
+  #navbar {
+    background-color:#fff;
+  }
+  ul {
+    &.menu {
+      &.nav {
+        background-color:#fff;
+      }
+    }
+  }
+}
+

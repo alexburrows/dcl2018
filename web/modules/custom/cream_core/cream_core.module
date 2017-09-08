@@ -1,0 +1,24 @@
+<?php
+/**
+ * @file
+ * Core functionality for CREAM.
+ */
+
+use Drupal\user\UserInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function cream_core_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if ($form_id == 'user_register_form')  {
+    //dsm($form['account']['name']);
+    //$form['account']['name']['#title'] = $this->t('Drupal.org usernname');
+  }
+}
+
+function cream_core_preprocess_page(&$variables) {
+ /* $current_path = \Drupal::service('path.current')->getPath()
+  /*if (\Drupal::currentUser()->isAnonymous() && $current_path == 'user') {
+
+  }*/
+}

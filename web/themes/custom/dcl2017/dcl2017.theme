@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Preprocess page.html.twig
+ */
+function dcl2017_preprocess_page(&$vars) {
+$vars['is_sponsor'] = NULL;
+  $user_roles = \Drupal::currentUser()->getRoles();
+
+  if (in_array("sponsor", $user_roles)) {
+  $vars['is_sponsor'] = TRUE;
+  }
+
+}

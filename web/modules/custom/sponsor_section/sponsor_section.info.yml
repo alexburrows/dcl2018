@@ -1,0 +1,10 @@
+name: 'Sponsor Section'
+description: 'Creates the access'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - path
+  - taxonomy
+  - text
+  - user

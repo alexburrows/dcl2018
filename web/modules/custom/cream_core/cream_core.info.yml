@@ -1,0 +1,5 @@
+name: Cream core
+description: Core functionality for Cream including update hooks.
+type: module
+core: 8.x
+package: cream
