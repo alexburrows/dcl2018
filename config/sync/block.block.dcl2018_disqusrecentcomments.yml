@@ -1,0 +1,32 @@
+uuid: 69c0a675-a967-4528-a349-3f7c8d7a6cbc
+langcode: en
+status: false
+dependencies:
+  module:
+    - ctools
+    - disqus
+  theme:
+    - dcl2018
+id: dcl2018_disqusrecentcomments
+theme: dcl2018
+region: main_nav
+weight: -8
+provider: null
+plugin: disqus_recent_comments
+settings:
+  id: disqus_recent_comments
+  label: 'Disqus: Recent Comments'
+  provider: disqus
+  label_display: visible
+  items: '5'
+  show_avatars: '1'
+  avatar_size: '32'
+  excerpt_length: '200'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      session: session
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

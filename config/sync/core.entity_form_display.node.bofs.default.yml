@@ -1,0 +1,69 @@
+uuid: 1dd9c7b4-f22f-4451-9acd-3d8cd0758a78
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bofs.body
+    - field.field.node.bofs.field_bof_room
+    - field.field.node.bofs.field_schedule_item_day
+    - field.field.node.bofs.field_schedule_item_time
+    - node.type.bofs
+  module:
+    - path
+    - text
+id: node.bofs.default
+targetEntityType: node
+bundle: bofs
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 31
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  field_bof_room:
+    weight: 34
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_schedule_item_day:
+    weight: 32
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+  field_schedule_item_time:
+    weight: 33
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  promote: true
+  sticky: true

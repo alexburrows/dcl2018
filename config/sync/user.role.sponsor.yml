@@ -1,0 +1,11 @@
+uuid: 16772850-e966-40f5-b24a-840694295ea2
+langcode: en
+status: true
+dependencies: {  }
+id: sponsor
+label: Sponsor
+weight: 6
+is_admin: null
+permissions:
+  - 'delete own session content'
+  - 'edit own session content'

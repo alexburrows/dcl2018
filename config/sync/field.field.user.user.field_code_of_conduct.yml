@@ -1,0 +1,24 @@
+uuid: 359d6a2c-fe56-46f3-907e-cc3a588872f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_code_of_conduct
+  module:
+    - user
+id: user.user.field_code_of_conduct
+field_name: field_code_of_conduct
+entity_type: user
+bundle: user
+label: 'I agree to the Drupal <a href="/about/code-of-conduct">code of conduct</a>'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

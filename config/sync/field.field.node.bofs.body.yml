@@ -1,0 +1,22 @@
+uuid: bd9194d9-4b83-4e38-a44d-95b25192bd46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.bofs
+  module:
+    - text
+id: node.bofs.body
+field_name: body
+entity_type: node
+bundle: bofs
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

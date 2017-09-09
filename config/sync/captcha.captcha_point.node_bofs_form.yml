@@ -1,0 +1,7 @@
+uuid: c8a359f4-1f47-49ec-905e-fd7e56aa3380
+langcode: en
+status: false
+dependencies: {  }
+formId: node_bofs_form
+captchaType: default
+label: null

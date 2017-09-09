@@ -1,0 +1,27 @@
+uuid: 2dbbe578-25ec-4550-bffe-6ff9ba8a1a60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_videos
+    - node.type.slideshow
+  module:
+    - video_embed_field
+_core:
+  default_config_hash: 9ZUghBVWWePPXpp0tfXgqpvBb54douqxtnc83lRxEY0
+id: node.slideshow.field_videos
+field_name: field_videos
+entity_type: node
+bundle: slideshow
+label: Videos
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: '0'
+    youtube_playlist: '0'
+    vimeo: '0'
+field_type: video_embed_field

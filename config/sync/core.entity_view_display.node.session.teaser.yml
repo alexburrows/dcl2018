@@ -1,0 +1,52 @@
+uuid: 1262fb14-ccc4-435b-a2a0-e5c4d3b6d69f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.session.field_session_content
+    - field.field.node.session.field_session_skill_level
+    - field.field.node.session.field_session_speaker
+    - field.field.node.session.field_session_speaker_agreement
+    - field.field.node.session.field_session_status
+    - field.field.node.session.field_session_track
+    - node.type.session
+  module:
+    - user
+id: node.session.teaser
+targetEntityType: node
+bundle: session
+mode: teaser
+content:
+  field_session_skill_level:
+    type: entity_reference_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+  field_session_speaker:
+    type: entity_reference_entity_view
+    weight: 2
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+  field_session_track:
+    type: entity_reference_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+  links:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_session_content: true
+  field_session_speaker_agreement: true
+  field_session_status: true

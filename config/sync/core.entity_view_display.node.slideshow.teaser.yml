@@ -1,0 +1,19 @@
+uuid: 9672cc79-6e69-438b-a648-8fcec043d99e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.slideshow
+  module:
+    - user
+_core:
+  default_config_hash: tmRBgP6ym8qVYRqCk2SiKXin0vgRedAT9lJEEi1FqqY
+id: node.slideshow.teaser
+targetEntityType: node
+bundle: slideshow
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden: {  }

@@ -1,0 +1,100 @@
+uuid: d2b18e68-e6b9-4d0a-8aff-b07f047971bd
+langcode: en
+status: false
+dependencies: {  }
+uid: 71
+template: false
+id: what_do_you_want_
+title: 'Improvements for 2018'
+description: ''
+elements: "intro:\n  '#type': webform_markup\n  '#markup': \"Thank you to everyone who&#39;s ever attended a Drupalcamp London event.<br />\\n&nbsp;\\n<div><span>We&#39;re taking your feedback, in addition to our own thoughts on the camp, and looking to make some changes for 2018 and beyond. We&#39;d love it if you could rate some of the ideas and opinions below. This will give us some indication of where we should focus our efforts&nbsp;to make the biggest improvements for you.&nbsp;</span></div>\"\nweekend_intro:\n  '#type': webform_markup\n  '#markup': \"<h2>Weekend</h2>\\nBelow are a few ideas for improving the weekend event. Please rate them from 1-5 (where 1 is I don&#39;t want this, 3 is neutral and 5 is I want this).<br />\\n<br />\\nPlease also feel free to add comments for anything else you would want to see/not see at the event.<br />\\n&nbsp;\"\nweekend_updates:\n  '#type': webform_likert\n  '#title': 'Weekend Updates'\n  '#questions':\n    sessions: 'More sessions'\n    quiet_space: 'More ''quiet'' space available'\n    food_1: 'Lunch - Better food included (higher ticket price)'\n    food_2: 'Lunch - Cafe/food venues available on site'\n    network: 'Better ways to network'\n  '#answers':\n    1: '1'\n    2: '2'\n    3: '3'\n    4: '4'\n    5: '5'\n  '#na_answer_text': ''\nweekend_other:\n  '#type': textarea\n  '#title': 'Other comments'\ncox_intro:\n  '#type': webform_markup\n  '#markup': \"<h2>CxO Day</h2>\\nBelow are a few ideas for improving the CxO event. Please rate them from 1-5 (where 1 is I don&#39;t want this, 3 is neutral and 5 is I want this).<br />\\n<br />\\nPlease also feel free to add comments for anything else you would want to see/not see at the event.<br />\\n&nbsp;\"\ncxo_updates:\n  '#type': webform_likert\n  '#title': 'CxO Updates'\n  '#questions':\n    drupal_talks: 'More Drupal focused talks'\n    general_talks: 'More Tech focused talks'\n    business_talks: 'More Process focused talks'\n    network: 'Better ways to network'\n  '#answers':\n    1: '1'\n    2: '2'\n    3: '3'\n    4: '4'\n    5: '5'\n  '#na_answer_text': ''\ncxo_comments:\n  '#type': textarea\n  '#title': 'Other comments'\n"
+css: ".form-type-webform-likert td label { display: inline-block }\r\nlegend {\r\ndisplay: inline-block;\r\n    max-width: 100%;\r\n    margin-bottom: 5px;\r\n    font-weight: 700;\r\n  font-size: 14px;\r\n}"
+javascript: ''
+settings:
+  page: true
+  page_submit_path: 2018-improvements
+  page_confirm_path: 2018-improvements/confirmation
+  form_submit_label: ''
+  form_submit_once: false
+  form_submit_attributes: {  }
+  form_exception_message: ''
+  form_closed_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_unsaved: false
+  form_disable_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_next_button_label: ''
+  wizard_next_button_attributes: {  }
+  wizard_prev_button_label: ''
+  wizard_prev_button_attributes: {  }
+  wizard_start_label: ''
+  wizard_complete: true
+  wizard_complete_label: ''
+  preview: 0
+  preview_next_button_label: ''
+  preview_next_button_attributes: {  }
+  preview_prev_button_label: ''
+  preview_prev_button_attributes: {  }
+  preview_message: ''
+  draft: false
+  draft_auto_save: false
+  draft_button_label: ''
+  draft_button_attributes: {  }
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: page
+  confirmation_message: ''
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  limit_total: null
+  limit_total_message: ''
+  limit_user: null
+  limit_user_message: ''
+  purge: none
+  purge_days: null
+  entity_limit_total: null
+  entity_limit_user: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+handlers: {  }

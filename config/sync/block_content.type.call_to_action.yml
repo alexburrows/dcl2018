@@ -1,0 +1,8 @@
+uuid: 99d2dc91-7d5e-4d2f-b148-d8e7ac08a8fe
+langcode: en
+status: true
+dependencies: {  }
+id: call_to_action
+label: 'Call to action'
+revision: 0
+description: 'Call to action is purely for html content this isn''t ideal but its a quick way to add a block.'

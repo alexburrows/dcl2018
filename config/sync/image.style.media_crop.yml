@@ -1,0 +1,17 @@
+uuid: c11d1d0d-17fc-4a93-92f3-46b569414a81
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+_core:
+  default_config_hash: UPdGXjjn2b8cCoa_RhpJ8X_8wyxmQtL9IspWTiP6PVM
+name: media_crop
+label: 'Media Crop'
+effects:
+  39bd5538-f2bc-48a4-b6f2-90ba2175b1eb:
+    uuid: 39bd5538-f2bc-48a4-b6f2-90ba2175b1eb
+    id: crop_crop
+    weight: 2
+    data:
+      crop_type: media_crop

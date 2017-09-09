@@ -1,0 +1,11 @@
+uuid: 9e97d8ef-b582-4807-a696-f929e373caff
+langcode: en
+status: true
+dependencies: {  }
+id: attendee
+label: Attendee
+weight: 4
+is_admin: null
+permissions:
+  - 'delete own session content'
+  - 'edit own session content'

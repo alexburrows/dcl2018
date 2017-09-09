@@ -1,0 +1,22 @@
+uuid: 3f537a0e-ed57-4fdb-9495-939772711804
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: organisor_dash
+label: 'Organisor Dash'
+description: ''
+use_admin_theme: true
+path: /organisor-dash
+access_logic: and
+access_conditions:
+  -
+    id: user_role
+    roles:
+      administrator: administrator
+      organisor: organisor
+    negate: false
+    context_mapping:
+      user: current_user
+parameters: {  }

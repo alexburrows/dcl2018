@@ -1,0 +1,64 @@
+uuid: 6c7c22a5-dcf1-494e-a540-a3325ed953ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.organisor_dash
+    - views.view.attendee
+    - views.view.event_organisor_blocks
+  module:
+    - panels
+    - views
+id: organisor_dash-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    ad778f2b-20bd-4dbd-9dad-30dbf8199c1e:
+      id: 'views_block:event_organisor_blocks-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: top
+      weight: -10
+      uuid: ad778f2b-20bd-4dbd-9dad-30dbf8199c1e
+      context_mapping: {  }
+    e9a4078e-c845-4b0e-b617-77863d81b2cc:
+      id: 'views_block:event_organisor_blocks-block_2'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: left_above
+      weight: 0
+      uuid: e9a4078e-c845-4b0e-b617-77863d81b2cc
+      context_mapping: {  }
+    8b2762f0-712f-48ff-b226-4f8585817e0c:
+      id: 'views_block:attendee-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: right_above
+      weight: 0
+      uuid: 8b2762f0-712f-48ff-b226-4f8585817e0c
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 26f6e6ab-f7b6-4068-ac74-1342b24360ba
+  label: null
+  weight: 0
+  layout: twocol_bricks
+  layout_settings: {  }
+  page_title: 'Organisor Dashboard'
+  storage_type: page_manager
+  storage_id: organisor_dash-panels_variant-0
+  builder: standard
+page: organisor_dash
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

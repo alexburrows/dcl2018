@@ -1,0 +1,28 @@
+uuid: bf290c51-a47b-4813-b00c-2a650040479c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_schedule_item_time
+    - node.type.session
+    - taxonomy.vocabulary.scheduletime
+id: node.session.field_schedule_item_time
+field_name: field_schedule_item_time
+entity_type: node
+bundle: session
+label: Time
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      scheduletime: scheduletime
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

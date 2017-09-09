@@ -1,0 +1,23 @@
+'session_quick_view:page_2':
+  'uid:1':
+    from_name: 'Drupalcamp London'
+    from_mail: info@drupalcamplondon.co.uk
+    tokens:
+      nid_pos_0: nid
+      title_pos_1: title
+      field_session_speaker_pos_2: field_session_speaker
+      mail_pos_3: mail
+      field_session_status_pos_4: field_session_status
+      title_pos_6: title_1
+    to_name: ''
+    to_mail: mail_pos_3
+    subject: 'Thank you for submitting a session to Drupalcamp London 2017'
+    message:
+      value: "<p>Thank you for submitting a session for Drupalcamp London 2017.</p>\r\n\r\n<p>We appreciate the time and effort you¹ve put in to your submission \"[views-send:title_1]\", and your desire to contribute towards making Drupalcamp London one of the best Drupal events in the world.</p>\r\n\r\n<p>Unfortunately your session was not selected on this occasion.</p>\r\n\r\n<p>Our content team had the difficult task of selecting only 35 sessions from over 85 submissions we received. While many talks had great content and quality, we were unable to accommodate the majority due to this.</p>\r\n\r\n<p>We look forward to seeing you at Drupalcamp London, and you can always submit a BoF.</p>\r\n\r\n<p>Kind Regards</p>\r\n\r\n<p>Drupalcamp London Organisors</p>\r\n"
+      format: basic_html
+    priority: '0'
+    receipt: 0
+    headers: ''
+    direct: 1
+    carbon_copy: 0
+    remember: 1

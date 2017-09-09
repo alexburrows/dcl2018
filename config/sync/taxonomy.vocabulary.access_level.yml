@@ -1,0 +1,11 @@
+uuid: 3eb4f112-e876-4c57-aed0-37b080622a97
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8CFod1xWvVvIfUK4y6RNmurEV2ozeOz6WPUdysCx1fw
+name: 'Access level'
+vid: access_level
+description: ''
+hierarchy: 0
+weight: 0

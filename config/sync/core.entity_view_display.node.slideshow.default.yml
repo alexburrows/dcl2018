@@ -1,0 +1,30 @@
+uuid: e3f1b774-34bc-4752-80c9-298623686f67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.slideshow.field_videos
+    - node.type.slideshow
+  module:
+    - user
+    - video_embed_field
+_core:
+  default_config_hash: yjRZb3eS2X9-2wg44CCrr_yE6Y5m6IH8293mzwig4vk
+id: node.slideshow.default
+targetEntityType: node
+bundle: slideshow
+mode: default
+content:
+  field_videos:
+    weight: 101
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+  links:
+    weight: 100
+hidden: {  }

@@ -1,0 +1,14 @@
+uuid: a27c8ab8-a127-49f2-809f-d6673ce0c3d3
+langcode: en
+status: true
+dependencies: {  }
+name: speaker_crop
+label: 'Speaker crop'
+effects:
+  0271171d-0505-4ae7-8367-97b515475d12:
+    uuid: 0271171d-0505-4ae7-8367-97b515475d12
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 200
+      height: 200

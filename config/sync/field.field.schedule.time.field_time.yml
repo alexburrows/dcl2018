@@ -1,0 +1,21 @@
+uuid: 69a8bf61-8e10-4c4f-9baa-3d7ead17e4dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.schedule.time
+    - field.storage.schedule.field_time
+  module:
+    - datetime_range
+id: schedule.time.field_time
+field_name: field_time
+entity_type: schedule
+bundle: time
+label: Time
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

@@ -1,0 +1,37 @@
+uuid: b62427a7-96f9-48ef-80fc-426cb56d49c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+    - options
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_bof_room
+field_name: field_bof_room
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: ELG08
+      label: ELG08
+    -
+      value: ELG09
+      label: ELG09
+    -
+      value: ELG11
+      label: ELG11
+    -
+      value: ELG12
+      label: ELG12
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
