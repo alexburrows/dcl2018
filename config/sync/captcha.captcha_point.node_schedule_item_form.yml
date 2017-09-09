@@ -1,7 +1,0 @@
-uuid: 43f2cc75-fa3c-473d-955d-42d0eeff4ee8
-langcode: en
-status: false
-dependencies: {  }
-formId: node_schedule_item_form
-captchaType: default
-label: null

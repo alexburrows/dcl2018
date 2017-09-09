@@ -1,0 +1,24 @@
+uuid: aa2ff5cf-182b-4962-aeb5-bbff5dc51ba0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_session_comment
+    - node.type.session
+  module:
+    - disqus
+id: node.session.field_session_comment
+field_name: field_session_comment
+entity_type: node
+bundle: session
+label: 'Session comment'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: 1
+    identifier: ''
+default_value_callback: ''
+settings: {  }
+field_type: disqus_comment

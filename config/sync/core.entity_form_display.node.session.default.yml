@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.session.field_schedule_item_day
     - field.field.node.session.field_schedule_item_room
     - field.field.node.session.field_schedule_item_time
+    - field.field.node.session.field_session_comment
     - field.field.node.session.field_session_content
     - field.field.node.session.field_session_day
     - field.field.node.session.field_session_room
@@ -61,19 +62,16 @@ content:
     weight: 2
     settings: {  }
     third_party_settings: {  }
-    region: content
   field_schedule_item_day:
     weight: 28
     settings: {  }
     third_party_settings: {  }
     type: options_select
-    region: content
   field_schedule_item_room:
     weight: 27
     settings: {  }
     third_party_settings: {  }
     type: options_select
-    region: content
   field_schedule_item_time:
     weight: 26
     settings:
@@ -82,7 +80,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
-    region: content
   field_session_content:
     weight: 7
     settings:
@@ -90,7 +87,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
-    region: content
   field_session_day:
     weight: 18
     settings:
@@ -98,7 +94,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
-    region: content
   field_session_room:
     weight: 17
     settings:
@@ -106,20 +101,17 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
-    region: content
   field_session_skill_level:
     weight: 8
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
-    region: content
   field_session_slides:
     weight: 11
     settings:
       progress_indicator: throbber
     third_party_settings: {  }
     type: file_generic
-    region: content
   field_session_speaker:
     weight: 6
     settings:
@@ -128,20 +120,17 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
-    region: content
   field_session_speaker_agreement:
     weight: 13
     settings:
       display_label: true
     third_party_settings: {  }
     type: boolean_checkbox
-    region: content
   field_session_status:
     weight: 10
     settings: {  }
     third_party_settings: {  }
     type: options_select
-    region: content
   field_session_time:
     weight: 16
     settings:
@@ -149,13 +138,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
-    region: content
   field_session_track:
     weight: 9
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
-    region: content
   field_slide_url_:
     weight: 12
     settings:
@@ -163,27 +150,23 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
-    region: content
   path:
     type: path
     weight: 5
     settings: {  }
     third_party_settings: {  }
-    region: content
   promote:
     type: boolean_checkbox
     settings:
       display_label: true
     weight: 3
     third_party_settings: {  }
-    region: content
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
     weight: 4
     third_party_settings: {  }
-    region: content
   title:
     type: string_textfield
     weight: 0
@@ -191,7 +174,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    region: content
   uid:
     type: entity_reference_autocomplete
     weight: 1
@@ -200,5 +182,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    region: content
-hidden: {  }
+hidden:
+  field_session_comment: true

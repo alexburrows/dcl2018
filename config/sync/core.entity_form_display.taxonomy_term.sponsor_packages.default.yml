@@ -1,0 +1,34 @@
+uuid: 8ac61a50-de53-4549-aa67-f81c65eb0680
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sponsor_packages
+  module:
+    - path
+    - text
+id: taxonomy_term.sponsor_packages.default
+targetEntityType: taxonomy_term
+bundle: sponsor_packages
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

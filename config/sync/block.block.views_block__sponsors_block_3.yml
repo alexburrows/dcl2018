@@ -1,0 +1,24 @@
+uuid: 413caf8b-3728-439e-a5b1-3c80a1cd1a41
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sponsors
+  module:
+    - views
+  theme:
+    - dcl2017
+id: views_block__sponsors_block_3
+theme: dcl2017
+region: call_to_action3
+weight: -9
+provider: null
+plugin: 'views_block:sponsors-block_3'
+settings:
+  id: 'views_block:sponsors-block_3'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,7 +1,0 @@
-uuid: 8d6b6fda-d061-4d06-82f2-9f097328cf77
-langcode: en
-status: false
-dependencies: {  }
-formId: node_volunteer_assignment_form
-captchaType: default
-label: null

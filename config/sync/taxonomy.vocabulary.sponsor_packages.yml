@@ -1,9 +1,9 @@
-uuid: 386cb9ff-bf90-4814-b015-0f6338d43963
+uuid: 92e900e4-cb93-4a1f-90d0-ecc7f3964fe3
 langcode: en
 status: true
 dependencies: {  }
 name: 'Sponsor packages'
 vid: sponsor_packages
-description: ''
+description: 'Lists sponsor packages'
 hierarchy: 0
 weight: 0

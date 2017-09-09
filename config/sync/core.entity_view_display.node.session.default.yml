@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.session.field_schedule_item_day
     - field.field.node.session.field_schedule_item_room
     - field.field.node.session.field_schedule_item_time
+    - field.field.node.session.field_session_comment
     - field.field.node.session.field_session_content
     - field.field.node.session.field_session_day
     - field.field.node.session.field_session_room
@@ -19,6 +20,7 @@ dependencies:
     - field.field.node.session.field_slide_url_
     - node.type.session
   module:
+    - disqus
     - file
     - text
     - user
@@ -34,7 +36,6 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
   field_schedule_item_room:
     weight: 11
     label: above
@@ -42,7 +43,6 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
   field_schedule_item_time:
     weight: 10
     label: above
@@ -50,14 +50,18 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
+  field_session_comment:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: disqus_comment
   field_session_content:
     weight: 3
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
-    region: content
   field_session_day:
     weight: 9
     label: above
@@ -65,7 +69,6 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: content
   field_session_room:
     weight: 8
     label: above
@@ -73,7 +76,6 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: content
   field_session_skill_level:
     weight: 1
     label: hidden
@@ -81,14 +83,12 @@ content:
       link: false
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
   field_session_slides:
     weight: 4
     label: above
     settings: {  }
     third_party_settings: {  }
     type: file_default
-    region: content
   field_session_speaker:
     weight: 0
     label: hidden
@@ -97,7 +97,6 @@ content:
       link: false
     third_party_settings: {  }
     type: entity_reference_entity_view
-    region: content
   field_session_time:
     weight: 7
     label: above
@@ -105,7 +104,6 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: content
   field_session_track:
     weight: 2
     label: hidden
@@ -113,7 +111,6 @@ content:
       link: false
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
   field_slide_url_:
     weight: 5
     label: above
@@ -121,7 +118,6 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: content
 hidden:
   field_session_speaker_agreement: true
   field_session_status: true
