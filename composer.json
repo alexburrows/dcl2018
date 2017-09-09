@@ -71,7 +71,8 @@
         "drupal/captcha": "^1.0@beta",
         "drupal/recaptcha": "^2.2",
         "drupal/delete_all": "^1.0@alpha",
-        "drupal/admin_toolbar": "^1.19"
+        "drupal/admin_toolbar": "^1.19",
+        "drupal/diff": "^1.0@RC"
     },
     "require-dev": {
         "behat/mink": "~1.7",
