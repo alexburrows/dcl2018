@@ -1,0 +1,25 @@
+uuid: e9bc2a86-4832-4113-b754-55f799c39079
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e4fdb57b-2070-47ee-80c4-948fcb00eb36'
+  module:
+    - block_content
+  theme:
+    - dcl2017
+id: footercontent_2
+theme: dcl2017
+region: footer
+weight: -8
+provider: null
+plugin: 'block_content:e4fdb57b-2070-47ee-80c4-948fcb00eb36'
+settings:
+  id: 'block_content:e4fdb57b-2070-47ee-80c4-948fcb00eb36'
+  label: 'Footer content'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

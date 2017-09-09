@@ -1,0 +1,28 @@
+tac_lite_categories:
+  access_level: access_level
+tac_lite_schemes: '1'
+menu_rebuild_needed: true
+tac_lite_config_scheme_1:
+  name: read
+  perms:
+    grant_view: grant_view
+  unpublished: 0
+  term_visibility: 0
+tac_lite_grants_scheme_1:
+  anonymous:
+    access_level: {  }
+  authenticated:
+    access_level: {  }
+  administrator:
+    access_level: {  }
+  speaker:
+    access_level: {  }
+  attendee:
+    access_level: {  }
+  organisor:
+    access_level: {  }
+  sponsor:
+    access_level:
+      26: '26'
+_core:
+  default_config_hash: 6mhiq0ycMNH6Wbryz7G2Gll81Pqfv7WbgN7jzCGZiUQ

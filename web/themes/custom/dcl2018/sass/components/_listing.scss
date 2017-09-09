@@ -1,0 +1,200 @@
+/**
+ * @file
+ * All page listings. (attendees, sessions).
+ */
+
+.view-sponsors {
+  h3 {
+    border-top: 1px solid #ddd;
+    text-align: center;
+    line-height:40px;
+    padding:0;
+    margin:0;
+    text-transform: uppercase;
+    font-weight:bold;
+    clear:both;
+    margin-bottom: 10px;
+  }
+  img {
+    margin:auto;
+  }
+}
+
+.view-schedule {
+  .schedule-item {
+    border: 2px solid $asset_colour4;
+    background-color: #fff;
+    margin-bottom:20px;
+    padding: 10px;
+    cursor: pointer;
+    overflow:hidden;
+   // height:180px;
+    a:first-child {
+      width:100%;
+      font-size:18px;
+      color:$asset_colour1;
+      float:left;
+      padding-bottom:5px;
+      margin-bottom:10px;
+    }
+
+    color: $asset_colour1;
+    .room {
+      border-top: $asset_colour4 2px solid;
+      width:100%;
+      float:left;
+      padding: 5px 0;
+    }
+    .skill, .track {
+      margin-right: 10px;
+    }
+
+    &.skill-7 {
+      .skill-track {
+        .skill {
+          padding:5px;
+          text-align: center;
+          color:#fff;
+          background-color: $skill_beginner;
+        }
+      }
+    }
+    &.skill-8 {
+      .skill-track {
+        .skill {
+          padding:5px;
+          color:#fff;
+          background-color: $skill_intermediate;
+        }
+      }
+    }
+    &.skill-9 {
+      .skill-track {
+        .skill {
+          padding:5px;
+          color:#fff;
+          background-color: $skill_expert;
+        }
+      }
+    }
+    &.track-1 {
+      .skill-track {
+        .track {
+          background-color: $coding_development;
+          padding:5px;
+          color:#fff;
+        }
+      }
+    }
+    &.track-3 {
+      .skill-track {
+        .track {
+          background-color: $community;
+          padding:5px;
+          color:#fff;
+        }
+      }
+    }
+    &.track-4 {
+      .skill-track {
+        .track {
+          background-color: $site_building;
+          padding:5px;
+          color:#fff;
+        }
+      }
+    }
+    &.track-5 {
+      .skill-track {
+        .track {
+          background-color: $symfony;
+          padding:5px;
+          color:#fff;
+        }
+      }
+    }
+    &.track-6 {
+      .skill-track {
+        .track {
+          background-color: $user_experience;
+          padding:5px;
+          color:#fff;
+        }
+      }
+    }
+    .room, .skill-track {
+      clear:both;
+    }
+    .skill, .track {
+      float:left;
+      text-align:center;
+    }
+  }
+}
+
+.view-attendee,
+.view-sessions {
+  h3 {
+    border-top: 1px solid #ddd;
+    text-align: center;
+    line-height:40px;
+    padding:0;
+    margin:0;
+    text-transform: uppercase;
+    font-weight:bold;
+    clear:both;
+    margin-bottom: 10px;
+  }
+  .views-row {
+    border: 12px solid #fff;
+    background-color: $asset_colour1;
+    margin-bottom:20px;
+    padding: 20px;
+    cursor: pointer;
+    overflow:hidden;
+    height:180px;
+    p {
+      &.speaker {
+        a {
+          font-size:18px;
+          color: #fff;
+        }
+      }
+    }
+    &:hover {
+      background-color: $asset_colour4;
+      -o-transition:color .2s ease-out, background 1s ease-in;
+      -ms-transition:color .2s ease-out, background 1s ease-in;
+      -moz-transition:color .2s ease-out, background 1s ease-in;
+      -webkit-transition:color .2s ease-out, background 1s ease-in;
+      /* ...and now override with proper CSS property */
+      transition:color .2s ease-out, background 1s ease-in;
+    }
+    .item-details, .col-md-12 {
+      border-top: 1px solid #fff;
+      padding-top: 10px;
+      position: absolute;
+      bottom: 0;
+      width: 84%;
+      padding-bottom: 13px;
+      .name, .name a{
+        display: inline-block;
+        margin-top:16px;
+        color:#fff;
+      }
+      .pic {
+        right: -22px;
+        display: inline-block;
+        position: absolute;
+        top: -41px;
+      }
+    }
+    img {
+      border-radius:50%;
+      height: 90px;
+      width: 90px;
+      border: 1px solid #fff;
+      margin:auto!important;
+    }
+  }
+}

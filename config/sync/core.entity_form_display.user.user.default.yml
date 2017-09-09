@@ -1,0 +1,60 @@
+uuid: c4b6beb6-803f-4f71-a9ba-6e6d5d8d936f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_attendee_company
+    - field.field.user.user.field_attendee_gender
+    - field.field.user.user.field_attendee_type_of_business
+    - field.field.user.user.field_code_of_conduct
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: LLAieeozVsoZDb-2PbFxRJpQqnKmpR7-4OoRJnduz-U
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_attendee_company:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_attendee_gender:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_attendee_type_of_business:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_code_of_conduct:
+    weight: 6
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+  user_picture:
+    type: image_image
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    weight: 1
+hidden:
+  contact: true
+  language: true
+  path: true
+  timezone: true

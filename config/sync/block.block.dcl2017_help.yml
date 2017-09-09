@@ -1,0 +1,22 @@
+uuid: 1c3e18da-3e71-4b5f-8a91-c7fb196e0f45
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - dcl2017
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: dcl2017_help
+theme: dcl2017
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

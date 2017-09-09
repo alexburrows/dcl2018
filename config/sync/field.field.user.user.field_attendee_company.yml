@@ -1,0 +1,20 @@
+uuid: dce48a32-3d9d-49cc-be58-751d870d9b56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_attendee_company
+  module:
+    - user
+id: user.user.field_attendee_company
+field_name: field_attendee_company
+entity_type: user
+bundle: user
+label: Company
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

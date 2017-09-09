@@ -1,0 +1,10 @@
+uuid: 43a95613-ea2e-415d-b8fa-c7959d76a146
+langcode: en
+status: true
+dependencies: {  }
+id: schedule
+label: Schedule
+created: true
+changed: true
+uid: true
+title: true

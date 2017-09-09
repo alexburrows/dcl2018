@@ -1,0 +1,17 @@
+uuid: 1d1bfa21-f740-466f-a8e3-56db8774db05
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: BoFs
+type: bofs
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

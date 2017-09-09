@@ -1,0 +1,24 @@
+uuid: 2727957f-b713-4c94-958d-484deaef0235
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.slideshow
+_core:
+  default_config_hash: 84-cH9X7i-Uq3JIwAHHb7dj3m_uuK9HX3JlA9kTZ3Lw
+id: node.slideshow.promote
+field_name: promote
+entity_type: node
+bundle: slideshow
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

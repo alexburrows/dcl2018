@@ -1,0 +1,28 @@
+uuid: 365681ac-6900-4deb-80cf-74dbfea680f2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access cart'
+  - 'access checkout'
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'create bofs content'
+  - 'delete own bofs content'
+  - 'delete own session content'
+  - 'edit own bofs content'
+  - 'edit own session content'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view field_session_time'
+  - 'view media'

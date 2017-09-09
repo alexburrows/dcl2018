@@ -1,0 +1,19 @@
+uuid: 32dbe05f-77d5-45a6-9e2d-0b97d67ea29e
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - slick_media
+_core:
+  default_config_hash: w4Xi-st47pzP5iOkUEZiAhieM1hBxTI5RWqWrJmz_FI
+name: slick_media
+label: 'Slick media'
+effects:
+  4b434ce0-90cc-44c3-9423-35d7cccc7d93:
+    uuid: 4b434ce0-90cc-44c3-9423-35d7cccc7d93
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 853
+      height: 480

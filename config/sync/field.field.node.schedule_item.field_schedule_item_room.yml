@@ -1,0 +1,28 @@
+uuid: c1688584-7b50-4956-860f-b7ed74945358
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_schedule_item_room
+    - node.type.schedule_item
+    - taxonomy.vocabulary.r
+id: node.schedule_item.field_schedule_item_room
+field_name: field_schedule_item_room
+entity_type: node
+bundle: schedule_item
+label: Room
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      r: r
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

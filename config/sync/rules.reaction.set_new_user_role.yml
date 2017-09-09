@@ -1,0 +1,15 @@
+uuid: b02c3bc5-9686-4bd8-abaf-0b5cf7c84aa7
+langcode: en
+status: true
+dependencies: {  }
+id: set_new_user_role
+label: 'Set new user role'
+events:
+  -
+    event_name: 'rules_entity_insert:user'
+description: 'Sets user role to attendee of creation.'
+tags:
+  - ''
+config_version: '3'
+expression:
+  id: rules_rule

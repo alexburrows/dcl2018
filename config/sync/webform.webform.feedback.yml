@@ -1,0 +1,100 @@
+uuid: ecf14c6d-f460-452c-a2db-b2a95046dbf6
+langcode: en
+status: false
+dependencies: {  }
+uid: 71
+template: false
+id: feedback
+title: Feedback
+description: ''
+elements: "intro:\n  '#type': processed_text\n  '#text': \"<p>Thank you again for attending Drupalcamp London. As with last year your comments and data will be used in our retrospective to ensure Drupalcamp London is as good as it can be.</p>\\r\\n\\r\\n<p>The collective data from the form submissions will be shared along with our responses to feedback. Please note that any individual comments submitted will not be made public and will remain anonymous.&nbsp;Also note ratings/comments on&nbsp;individual speakers will remain private, only overall ratings will be made public.</p>\\r\\n\"\n  '#format': basic_html\nhow_did_you_hear_about_drupalcamp_london_:\n  '#type': webform_radios_other\n  '#title': 'How did you hear about Drupalcamp London?'\n  '#options':\n    email: Email\n    work: Work\n    online: 'Online (website/social media)'\n    friend: Friend\n    other_event: 'Other Drupal event'\n  '#required': true\nwhy_did_you_attend_drupalcamp_london_:\n  '#type': webform_checkboxes_other\n  '#title': 'Why did you attend Drupalcamp London?'\n  '#options':\n    networking: 'For networking'\n    speakers: \"Interest in sessions/speakers\\t\"\n    sprint: 'To sprint'\n    know: 'You know the organisers or participants'\n    learn: 'To learn more about Drupal'\n  '#required': true\nhow_satisfied_were_you_with_the_facilities_at_city_university:\n  '#type': webform_likert\n  '#title': 'How satisfied were you with the facilities at City University?'\n  '#questions':\n    clean: 'Overall cleanliness'\n    rooms: 'Rooms available'\n    wifi: Wifi\n    food: 'Food available'\n    overall: 'The venue overall'\n  '#answers': likert_satisfaction\n  '#na_answer': true\n  '#required': true\ncxo:\n  '#type': fieldset\n  '#title': CxO\n  did_you_attend_the_cxo_day:\n    '#type': radios\n    '#title': 'Did you attend the CxO day? (If no please skip the next question)'\n    '#options':\n      'y': 'Yes'\n      'n': 'No'\n    '#required': true\n  how_satisfied_are_you_with_the_following_aspects_of_the_cxo_day:\n    '#type': webform_likert\n    '#title': 'How satisfied are you with the following aspects of the CxO day'\n    '#description': 'Please note ratings/comments on&nbsp;individual speakers will remain private. Only overall ratings will be made public.'\n    '#description_display': after\n    '#questions':\n      price: Price\n      andre_spicer: 'Speaker: Professor Andre Spicer'\n      paul_reeves: 'Speaker: Paul Reeves'\n      alex_elkins: 'Speaker: Alex Elkins'\n      ben_finn: 'Speaker: Ben Finn OBE'\n      sarah_wood: 'Speaker: Sarah Wood OBE'\n      subject: 'Overall Talk subjects/Content'\n      vols: Volunteers\n      drinks: 'After event drinks'\n      overall: 'Overall satisfaction'\n    '#answers': likert_satisfaction\n    '#na_answer': true\nweekend_event:\n  '#type': fieldset\n  '#title': 'Weekend event'\n  did_you_attend_the_weekend_event_if_no_please_skip_the_next_ques:\n    '#type': radios\n    '#title': 'Did you attend the weekend event? (If no please skip the next question)'\n    '#options':\n      'y': 'Yes'\n      'n': 'No'\n    '#required': true\n  how_satisfied_are_you_with_the_following_aspects_of_the_weekend_:\n    '#type': webform_likert\n    '#title': 'How satisfied are you with the following aspects of the weekend event'\n    '#description': 'Please note ratings/comments on&nbsp;individual speakers will remain private. Only overall ratings will be made public.'\n    '#questions':\n      price: Price\n      matt_glaman: 'Keynote: Matt Glaman'\n      jam: 'Keynote: Jeffrey A. \"jam\" McGuire'\n      danese_cooper: 'Keynote: Danese Cooper'\n      session_speakers: 'Overall session speakers'\n      subject: 'Overall session subjects/content'\n      vols: Volunteers\n      social: 'Social night'\n      sprint: 'Sprint rooms'\n      bof: 'BoF rooms'\n      overall: 'Overall satisfaction'\n    '#answers': likert_satisfaction\n    '#na_answer': true\nany_other_comments_about_the_cxo_weekend_event_:\n  '#type': textarea\n  '#title': 'Any other comments about the CxO/weekend event?'\nhow_likely_are_you_to_attend_drupalcamp_london_next_year_:\n  '#type': radios\n  '#title': 'How likely are you to attend Drupalcamp London next year?'\n  '#options': likert_would_you\n  '#required': true\nhow_likely_are_you_to_recommend_drupalcamp_london_to_a_friend_or:\n  '#type': radios\n  '#title': 'How likely are you to recommend Drupalcamp London to a friend or colleague?'\n  '#options': likert_would_you\n  '#required': true\ndo_you_have_any_suggestions_for_improving_drupalcamp_london_next:\n  '#type': textarea\n  '#title': 'Do you have any suggestions for improving Drupalcamp London next year?'\n"
+css: ".form-type-webform-likert td label { display: inline-block }\r\nlegend {\r\ndisplay: inline-block;\r\n    max-width: 100%;\r\n    margin-bottom: 5px;\r\n    font-weight: 700;\r\n  font-size: 14px;\r\n}"
+javascript: ''
+settings:
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  form_submit_label: ''
+  form_submit_once: false
+  form_submit_attributes: {  }
+  form_exception_message: ''
+  form_closed_message: 'Thank you for all your feedback, you can see the results <a href="/your-feedback">here</a>.'
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_unsaved: false
+  form_disable_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_next_button_label: ''
+  wizard_next_button_attributes: {  }
+  wizard_prev_button_label: ''
+  wizard_prev_button_attributes: {  }
+  wizard_start_label: ''
+  wizard_complete: true
+  wizard_complete_label: ''
+  preview: 0
+  preview_next_button_label: ''
+  preview_next_button_attributes: {  }
+  preview_prev_button_label: ''
+  preview_prev_button_attributes: {  }
+  preview_message: ''
+  draft: false
+  draft_auto_save: false
+  draft_button_label: ''
+  draft_button_attributes: {  }
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: page
+  confirmation_message: "<h3>Thank you for your feedback</h3>\r\nWe&#39;ll be reviewing all feedback and publishing the results online/via Twitter soon.<br />\r\n<br />\r\nTo keep up up to date and hear about the camp next year sign up to our <a href=\"http://eepurl.com/crFY9H\" target=\"_blank\">email list</a>"
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  limit_total: null
+  limit_total_message: ''
+  limit_user: null
+  limit_user_message: ''
+  purge: none
+  purge_days: null
+  entity_limit_total: null
+  entity_limit_user: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+handlers: {  }

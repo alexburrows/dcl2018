@@ -1,0 +1,9 @@
+uuid: f3451253-f3b1-448a-9e56-c470de9fe432
+langcode: en
+status: true
+dependencies: {  }
+name: Day
+vid: scheduleday
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,30 @@
+uuid: eb4931a9-4608-4ff7-9091-f7f577cbfa85
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.bofs
+  module:
+    - system
+    - views
+  theme:
+    - dcl2017
+id: views_block__bofs_block_1
+theme: dcl2017
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:bofs-block_1'
+settings:
+  id: 'views_block:bofs-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /get-involved/bofs
+    negate: false
+    context_mapping: {  }

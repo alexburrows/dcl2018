@@ -1,0 +1,17 @@
+uuid: af8399d4-8d9f-4a6f-b9c2-aa7825a47b39
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Session
+type: session
+description: ''
+help: '<p>Before submitting a session make sure to read our <a target="_blank" href="/submit-session">submission guide</a></p>'
+new_revision: false
+preview_mode: 0
+display_submitted: false

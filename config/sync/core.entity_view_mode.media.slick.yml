@@ -1,0 +1,15 @@
+uuid: c26fc6a5-2b5c-475e-961d-f1d3ca1aac79
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - slick_media
+  module:
+    - media_entity
+_core:
+  default_config_hash: 9eA7-WhSI71-g9LS-OIUe4H_Bh1R462BfhznclakAEY
+id: media.slick
+label: 'Slick carousel'
+targetEntityType: media
+cache: true

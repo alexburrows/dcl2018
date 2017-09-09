@@ -1,0 +1,9 @@
+uuid: ca152e28-6661-41b0-a1e5-6451cedc76dc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rAkKEL1yw7HR5CaKyRy_NigxVsxr7M13yfnhwdeGBZ4
+name: gallery_item
+label: 'Gallery item'
+effects: {  }

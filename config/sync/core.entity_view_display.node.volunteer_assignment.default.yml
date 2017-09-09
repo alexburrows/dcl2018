@@ -1,0 +1,32 @@
+uuid: 77b19747-c122-4c8b-84d9-6b39644ac9cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.volunteer_assignment.field_assignment_session
+    - field.field.node.volunteer_assignment.field_volunteer_name
+    - node.type.volunteer_assignment
+  module:
+    - user
+id: node.volunteer_assignment.default
+targetEntityType: node
+bundle: volunteer_assignment
+mode: default
+content:
+  field_assignment_session:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_volunteer_name:
+    weight: 101
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  links:
+    weight: 100
+hidden: {  }

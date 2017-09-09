@@ -1,0 +1,10 @@
+uuid: aba33b3e-fe6d-4dec-b6d1-b17fc4f1ddcb
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.speaker_session_bio
+label: speaker_session_bio
+targetEntityType: user
+cache: true

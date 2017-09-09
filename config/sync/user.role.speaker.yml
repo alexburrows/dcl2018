@@ -1,0 +1,11 @@
+uuid: 4434e542-9c83-4c66-9c6e-6c5af6955be6
+langcode: en
+status: true
+dependencies: {  }
+id: speaker
+label: Speaker
+weight: 3
+is_admin: null
+permissions:
+  - 'delete own session content'
+  - 'edit own session content'
