@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+
     "content-hash": "146eb01338cc5da6d2e5cd64bf85525a",
     "packages": [
         {
@@ -10562,8 +10563,8 @@
         "drupal/layout_plugin": 15,
         "drupal/media": 20,
         "drupal/captcha": 10,
-        "drupal/delete_all": 15,
-        "drupal/diff": 5
+        "drupal/diff": 5,
+        "drupal/delete_all": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,
