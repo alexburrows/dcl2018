@@ -1,0 +1,46 @@
+uuid: efbc1746-fcb5-4b3e-bf54-0bcde97c137c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sponsor.field_sponsor_contact_email
+    - field.field.node.sponsor.field_sponsor_contact_name
+    - field.field.node.sponsor.field_sponsor_contact_number_dir
+    - field.field.node.sponsor.field_sponsor_details
+    - field.field.node.sponsor.field_sponsor_logo
+    - field.field.node.sponsor.field_sponsor_payment_status
+    - field.field.node.sponsor.field_sponsor_website
+    - field.field.node.sponsor.field_sponsorship_type
+    - image.style.medium
+    - node.type.sponsor
+  module:
+    - image
+    - text
+    - user
+id: node.sponsor.default
+targetEntityType: node
+bundle: sponsor
+mode: default
+content:
+  field_sponsor_details:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_sponsor_logo:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  field_sponsor_contact_email: true
+  field_sponsor_contact_name: true
+  field_sponsor_contact_number_dir: true
+  field_sponsor_payment_status: true
+  field_sponsor_website: true
+  field_sponsorship_type: true
+  links: true

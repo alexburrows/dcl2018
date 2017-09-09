@@ -1,0 +1,37 @@
+uuid: 4359b476-76d6-418f-b059-97ab47b30bd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+    - user
+  theme:
+    - dcl2017
+id: mainnavigation
+theme: dcl2017
+region: volunteer
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation (sponsor)'
+  provider: system
+  label_display: '0'
+  level: 2
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: '/sponsor/*'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      sponsor: sponsor
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

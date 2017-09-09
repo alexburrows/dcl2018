@@ -1,0 +1,28 @@
+uuid: ffa40a39-939c-461b-9df8-1457785c158e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_schedule_item_day
+    - node.type.schedule_item
+    - taxonomy.vocabulary.scheduleday
+id: node.schedule_item.field_schedule_item_day
+field_name: field_schedule_item_day
+entity_type: node
+bundle: schedule_item
+label: Day
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      scheduleday: scheduleday
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

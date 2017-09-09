@@ -1,0 +1,24 @@
+uuid: c98755f3-7f2e-4786-8a69-87415886fea8
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - eck
+    - field_permissions
+third_party_settings:
+  field_permissions:
+    permission_type: private
+id: schedule.field_time
+field_name: field_time
+entity_type: schedule
+type: daterange
+settings:
+  datetime_type: datetime
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 6fcde187-50fc-4069-a06c-7084b95469b7
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - dcl2018
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: dcl2018_messages
+theme: dcl2018
+region: main_nav
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

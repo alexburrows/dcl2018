@@ -1,0 +1,33 @@
+uuid: a1138abe-fb94-495a-a3fc-f0941f9dffc7
+langcode: en
+status: false
+dependencies:
+  module:
+    - ctools
+    - disqus
+  theme:
+    - dcl2017
+id: disquscombinationwidget
+theme: dcl2017
+region: main_nav
+weight: -9
+provider: null
+plugin: disqus_combination_widget
+settings:
+  id: disqus_combination_widget
+  label: 'Disqus: Combination Widget'
+  provider: disqus
+  label_display: '0'
+  items: '5'
+  color_theme: blue
+  default_tab_view: people
+  excerpt_length: '200'
+  hide_mods: 0
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      session: session
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

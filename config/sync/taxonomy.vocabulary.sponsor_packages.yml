@@ -1,0 +1,9 @@
+uuid: 386cb9ff-bf90-4814-b015-0f6338d43963
+langcode: en
+status: true
+dependencies: {  }
+name: 'Sponsor packages'
+vid: sponsor_packages
+description: ''
+hierarchy: 0
+weight: 0

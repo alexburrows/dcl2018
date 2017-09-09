@@ -1,0 +1,20 @@
+uuid: 8058bd48-48b0-4860-b07a-d106a2c85928
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dcl2017
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: dcl2017_local_actions
+theme: dcl2017
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

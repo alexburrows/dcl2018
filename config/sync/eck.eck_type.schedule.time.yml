@@ -1,0 +1,9 @@
+uuid: 67043393-8360-4450-b722-f53f21c88349
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.schedule
+name: Time
+type: time
+description: 'Time of sessions - this only needs to be created once'

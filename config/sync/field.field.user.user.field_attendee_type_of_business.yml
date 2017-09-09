@@ -1,0 +1,21 @@
+uuid: 8a454196-960d-40e6-a97e-bb9122c88ec1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_attendee_type_of_business
+  module:
+    - options
+    - user
+id: user.user.field_attendee_type_of_business
+field_name: field_attendee_type_of_business
+entity_type: user
+bundle: user
+label: 'Type of business'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,13 @@
+.session-details-full {
+  .session-type {
+    padding:10px;
+    background-color:$asset_colour1;
+    color:#fff;
+    margin-bottom:10px;
+  }
+  .session-comment {
+    margin-top:20px;
+    padding-top:20px;
+    border-top: 1px solid $asset_colour1;
+  }
+}

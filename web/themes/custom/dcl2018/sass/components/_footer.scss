@@ -1,0 +1,26 @@
+footer {
+  background-color: $asset_colour3;
+  padding:20px 0;
+  border-top: 1px solid #fff;
+  .container {
+    .row {
+      div {
+        p {
+          color:#fff;
+          a {
+            color: #00ffff;
+          }
+        }
+        a {
+          color: #00ffff;
+        }
+      }
+      p {
+        color:#fff;
+        a {
+          color: #00ffff;
+        }
+      }
+    }
+  }
+}

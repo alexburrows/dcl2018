@@ -1,0 +1,43 @@
+uuid: 0a5dfc89-934f-42b7-9e79-fffedb7d73b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_attendee_company
+    - field.field.user.user.field_attendee_gender
+    - field.field.user.user.field_attendee_type_of_business
+    - field.field.user.user.field_code_of_conduct
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: L2mtwGWH_7wDRCMIR4r_Iu_jmvQ10DV1L8ht8iNZ5qY
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_code_of_conduct:
+    weight: 1
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  user_picture:
+    type: image
+    weight: 0
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+hidden:
+  field_attendee_company: true
+  field_attendee_gender: true
+  field_attendee_type_of_business: true
+  member_for: true

@@ -1,0 +1,34 @@
+uuid: 0a994d27-0abe-4ff2-b8b3-1a1d5d5ece52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_volunteer_name
+    - node.type.volunteer_assignment
+id: node.volunteer_assignment.field_volunteer_name
+field_name: field_volunteer_name
+entity_type: node
+bundle: volunteer_assignment
+label: 'Volunteer name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: role
+      role:
+        attendee: attendee
+        administrator: '0'
+        speaker: '0'
+        organisor: '0'
+        sponsor: '0'
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

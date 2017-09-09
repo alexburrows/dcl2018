@@ -1,0 +1,128 @@
+uuid: 2611dfdc-325c-4f77-a170-7a167d119163
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.session.field_schedule_item_day
+    - field.field.node.session.field_schedule_item_room
+    - field.field.node.session.field_schedule_item_time
+    - field.field.node.session.field_session_content
+    - field.field.node.session.field_session_day
+    - field.field.node.session.field_session_room
+    - field.field.node.session.field_session_skill_level
+    - field.field.node.session.field_session_slides
+    - field.field.node.session.field_session_speaker
+    - field.field.node.session.field_session_speaker_agreement
+    - field.field.node.session.field_session_status
+    - field.field.node.session.field_session_time
+    - field.field.node.session.field_session_track
+    - field.field.node.session.field_slide_url_
+    - node.type.session
+  module:
+    - file
+    - text
+    - user
+id: node.session.default
+targetEntityType: node
+bundle: session
+mode: default
+content:
+  field_schedule_item_day:
+    weight: 12
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_schedule_item_room:
+    weight: 11
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_schedule_item_time:
+    weight: 10
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_session_content:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_session_day:
+    weight: 9
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_session_room:
+    weight: 8
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_session_skill_level:
+    weight: 1
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_session_slides:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_session_speaker:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: speaker_session_bio
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_session_time:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_session_track:
+    weight: 2
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_slide_url_:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  field_session_speaker_agreement: true
+  field_session_status: true
+  links: true

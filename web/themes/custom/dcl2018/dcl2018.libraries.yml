@@ -1,0 +1,12 @@
+# CSS
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/style.css: {}
+    js:
+      js/scripts.js: {}
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Open+Sans:regular,bold': { type: external, minified: true }

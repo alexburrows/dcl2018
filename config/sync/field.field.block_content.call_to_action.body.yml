@@ -1,0 +1,22 @@
+uuid: 76be12e7-1d9e-46e6-896d-f07770c1c7da
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.call_to_action
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.call_to_action.body
+field_name: body
+entity_type: block_content
+bundle: call_to_action
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

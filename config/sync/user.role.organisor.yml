@@ -1,0 +1,37 @@
+uuid: 3b96b8a9-a0f9-49d8-805a-32c705488dba
+langcode: en
+status: true
+dependencies: {  }
+id: organisor
+label: Organisor
+weight: 5
+is_admin: null
+permissions:
+  - 'create field_session_day'
+  - 'create field_session_room'
+  - 'create field_session_status'
+  - 'create field_session_time'
+  - 'create field_sponsor_email'
+  - 'delete any session content'
+  - 'delete own session content'
+  - 'delete session revisions'
+  - 'edit any session content'
+  - 'edit field_session_day'
+  - 'edit field_session_room'
+  - 'edit field_session_status'
+  - 'edit field_session_time'
+  - 'edit field_sponsor_email'
+  - 'edit own field_session_day'
+  - 'edit own field_session_room'
+  - 'edit own field_session_status'
+  - 'edit own field_session_time'
+  - 'edit own field_sponsor_email'
+  - 'edit own session content'
+  - 'view field_session_day'
+  - 'view field_session_room'
+  - 'view field_session_time'
+  - 'view field_sponsor_email'
+  - 'view own field_session_day'
+  - 'view own field_session_room'
+  - 'view own field_session_time'
+  - 'view own field_sponsor_email'

@@ -1,0 +1,301 @@
+/**
+ * @file
+ * Various block styling.
+ */
+.call-to-action-buttons {
+  @media only screen and (max-width : $max_width) {
+    margin-bottom:10px;
+  }
+  padding: 30px 0;
+  a {
+    width:100%;
+    text-align: center;
+    line-height:200%;
+  }
+  &.asset__1 {
+    background-color: $asset_colour2;
+    border-bottom: 5px #232323 solid;
+    a {
+      color: #fff;
+      background-color: $asset_colour1;
+    }
+    @include button_primary(rgba($asset_colour1, 0.8), $asset_colour1, #fff);
+  }
+}
+
+.tickets {
+  &.asset__2 {
+    background-color: $asset_colour1;
+    .row {
+      padding:20px;
+      .col-md-6 {
+        div {
+          background-color: rgba($asset_colour3, 0.8);
+          border-bottom: 5px solid $asset_colour3;
+          padding: 20px;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+          color:#fff;
+          h2, p {
+            font-weight: 800;
+          }
+          p {
+            font-size: 25px;
+          }
+          h2, p {
+            color:#fff;
+            text-align: center;
+          }
+          @include button_secondary($asset_colour1, $asset_colour1, #fff);
+        }
+      }
+    }
+  }
+}
+
+.drupal-apprentice {
+  padding: 20px 0;
+  background-color: #bce8f1;
+  .container {
+    background:url('../images/drupal_apprentices.png') no-repeat right bottom transparent;
+  }
+}
+
+.sponsors {
+  padding: 20px 0;
+ // border-top: rgba(#999, 0.8) 15px solid;
+  background-color: #fff;
+  h2 {
+    color:#999;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+  .views-element-container {
+    .form-group {
+      .view-sponsors {
+        .view-content {
+          h3 {
+            color:$asset_colour3;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-align: center;
+            border-bottom: rgba(#999, 0.8) 2px solid;
+            margin-bottom:20px;
+            font-size:18px;
+            padding-bottom:20px;
+          }
+          .col-md-6,
+          .sponsor {
+            img {
+              &.img-responsive {
+                margin: auto!important;
+              }
+              display: block;
+              //margin-left: auto;
+              filter: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sponsor {
+    padding: 20px;
+    border-radius: 20px;
+    .image {
+      .mask {
+        overflow: hidden;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        img {
+          height: 150px;
+          margin-left: auto;
+        }
+      }
+    }
+    .bio {
+      h3 {
+        color:#fff;
+        font-size: 28px;
+      }
+      p {
+        opacity:0.8;
+        font-style: italic;
+      }
+      h3, p, a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.speakers {
+  padding: 20px 0;
+  border-top: rgba($asset_colour1, 0.8) 15px solid;
+  background-color: $asset_colour1;
+  h2 {
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+  .speaker {
+    padding: 20px;
+    border-radius: 20px;
+    .mask {
+      overflow: hidden;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      position: relative;
+      width:150px;
+      height:150px;
+      img {
+        height: 150px;
+        margin-left: -30px;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+    h3 {
+      color:#fff;
+      font-size: 28px;
+    }
+    p {
+      opacity:0.8;
+      font-style: italic;
+    }
+    h3, p, a {
+      color: #fff;
+    }
+  }
+}
+
+.cxo-speakers {
+  padding: 20px 0 40px 0;
+  border-top: rgba(#1A4D66, 0.8) 15px solid;
+  background-color: #000066;
+  h2 {
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+  @include button_secondary(#1A4D66, #213666, #fff);
+  .row {
+    padding: 20px 0;
+  }
+  .speaker-item {
+    margin-bottom:10px;
+    padding: 20px 50px 40px 50px;
+    border-radius: 20px;
+    .speaker {
+      padding-top:20px;
+      .mask {
+        padding-top:20px;
+        overflow: hidden;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        position: relative;
+        width:150px;
+        height:150px;
+        margin:auto;
+        img {
+          height: 150px;
+          margin-left: -30px;
+          position: absolute;
+          top: 0;
+          right: 0;
+        }
+      }
+      h3 {
+        color:#fff;
+        font-size: 28px;
+      }
+      p {
+        opacity:0.8;
+        font-style: italic;
+        min-height:50px;
+      }
+      h3, p, a {
+        color: #fff;
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
+
+.drupal-association {
+  padding:20px 0;
+  background-color: #F6F6F2;
+  .container {
+    background: url('https://assoc.drupal.org/files/drupal-association-logo-rgb.png') bottom right transparent no-repeat;
+    background-size:20%;
+    .row {
+      h2 {
+        color: #064771;
+      }
+      p {
+        color: #222222;
+      }
+      a {
+        color: #fff;
+        border-left: 0;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 5px solid #367d02;
+        background-color: #96BC44;
+        &:hover {
+          background-color: #367d02;
+        }
+      }
+    }
+  }
+}
+
+.cxo-speakers {
+  &.page {
+    float:left;
+    .speaker-item {
+      .speaker {
+        h3,p,a {
+          text-align: left;
+        }
+      }
+    }
+  }
+}

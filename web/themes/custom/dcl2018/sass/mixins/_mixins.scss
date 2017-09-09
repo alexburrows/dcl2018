@@ -1,0 +1,35 @@
+@mixin button_primary($button_bg_color, $button_border_colour, $font_colour) {
+  a, input[type='submit'] {
+    &.btn {
+      border:0;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      &.btn-primary {
+        background-color: rgba($button_bg_color, 0.8);
+        color: $font_colour;
+        border-bottom: 5px $button_border_colour solid;
+        font-size: 28px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+@mixin button_secondary($button_bg_color, $button_border_colour, $font_colour) {
+  a {
+    &.btn {
+      border: 0;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      &.btn-secondary {
+        background-color: rgba($button_bg_color, 0.8);
+        color: $font_colour;
+        border-bottom: 5px $button_border_colour solid;
+        font-size: 28px;
+        font-weight: bold;
+        width:100%;
+      }
+    }
+  }
+}

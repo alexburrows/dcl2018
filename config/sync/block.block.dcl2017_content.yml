@@ -1,0 +1,22 @@
+uuid: 6f4d54e0-b181-45c4-93b9-18d30325230d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dcl2017
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: dcl2017_content
+theme: dcl2017
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

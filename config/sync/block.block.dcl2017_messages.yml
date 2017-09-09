@@ -1,0 +1,22 @@
+uuid: 9c9a0fee-94bb-49bb-9d6f-fb908858d3a0
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - dcl2017
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: dcl2017_messages
+theme: dcl2017
+region: main_nav
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
